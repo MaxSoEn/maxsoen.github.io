@@ -26,27 +26,27 @@ h2:hover span{
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 7s;
+  -webkit-animation-duration: 2s;
   animation-name: animatebottom;
-  animation-duration: 7s
+  animation-duration: 2s
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-130px; opacity:0 } 
-  to { bottom:-20px; opacity:1 }
+  from { bottom:-70px; opacity:0 } 
+  to { bottom:30px; opacity:1 }
 }
 
 @keyframes animatebottom { 
-  from{ bottom:-130px; opacity:0 } 
-  to{ bottom:-20px; opacity:1 }
+  from{ bottom:-70px; opacity:0 } 
+  to{ bottom:30px; opacity:1 }
 }
 
 #myDiv {
   display: none;
   position: relative;
   left:20px ;
-  margin: 10px;
-  padding: 50px;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
 }
 
